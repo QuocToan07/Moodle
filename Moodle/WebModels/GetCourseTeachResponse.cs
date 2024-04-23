@@ -1,0 +1,14 @@
+﻿namespace Moodle.WebModels
+{
+    public class GetCourseTeachResponse
+    {
+        public List<CourseTeachResponse> CoursesTeach { get; set; } = new List<CourseTeachResponse>();
+    }
+
+    public class CourseTeachResponse
+    {
+        public string Id { get; set; }
+        public string Title { get; set; }
+    }
+}
+ 
